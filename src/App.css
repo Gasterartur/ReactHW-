@@ -1,0 +1,47 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #365f9b0e;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #d34f4f;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #45939980;
+  color: #0e0d0def;
+  border-color: #040b13;
+}
+
+
+
+button:hover:not(:disabled) {
+  background-color: #a9b5c2;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
